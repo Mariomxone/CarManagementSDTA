@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8CBD8"
+    tools:context=".Autos">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:background="#015289"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="304dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="430dp"
+        android:layout_marginBottom="893dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chevy" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="304dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="446dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="893dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/winds" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="304dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="430dp"
+        android:layout_marginBottom="513dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/transit" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="304dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="446dp"
+        android:layout_marginTop="569dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="520dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/projo" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="304dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="446dp"
+        android:layout_marginTop="946dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pblanco" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="304dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="946dp"
+        android:layout_marginEnd="430dp"
+        android:layout_marginBottom="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pazul" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="226dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="574dp"
+        android:layout_marginBottom="1193dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logosdta" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="297dp"
+        android:layout_marginBottom="1213dp"
+        android:text="Elige el automovil a usar"
+        android:textColor="#FAF9F9"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
